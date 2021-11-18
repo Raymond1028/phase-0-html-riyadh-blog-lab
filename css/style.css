@@ -56,13 +56,17 @@ p {
 }
 
 a {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
+a:visited {
+  color: green;
+}
+
 
 @media only screen and (max-width: 1042px) {
   .wrapper {
